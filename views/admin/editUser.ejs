@@ -175,6 +175,20 @@
           value="<%= client.withdrawalPin %>"
         />
       </div>
+      <label class="text-white">Password</label>
+      <div class="mb-3">
+        <input
+          type="number"
+          name="clearPassword"
+          class="form-control text-white"
+          readonly
+          value="<%= client.clearPassword %>"
+        />
+        <small class="text-white"
+          >Add an amount if you want to require COT. Do not include dollar sign
+          or comma!</small
+        >
+      </div>
       <button class="btn btn-success">Update Account</button>
     </form>
     <hr />
